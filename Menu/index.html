@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="STYLES/style.css">
+	<link rel="stylesheet" type="text/css" href="fonts.css">
+	<link rel="icon" type="image/jpg" href="DL1.PNG">
+	<title>DODGE RT/SRT & Historia</title>
+</head>
+<body>
+
+	<section class="title">
+		<h1>DODGE SRT/RT</h1>
+
+	</section>
+
+	<nav class="navegacion">
+		<ul class="menu">
+
+			<li class="first-item">
+				<a href="index.html">
+					<img src="sImagenes/DL1.jpg" class="imagen">
+					<span class="text-item">HOME</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+
+			<li>
+				<a href="Historia.html">
+					<img src="sImagenes/a1.JPG" class="imagen">
+					<span class="text-item">HISTORIA</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+			<li>
+				<a href="R-T.html">
+					<img src="sImagenes/RT.jpg" class="imagen">
+					<span class="text-item">RT</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+			<li>
+				<a href="SRT.html">
+					<img src="sImagenes/SRT.jpg" class="imagen">
+					<span class="text-item">SRT</span>
+					<span class="down-item"></span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="main">
+		<div class="slides">
+			<img src="sImagenes/1.JPG" alt="">
+			<img src="sImagenes/2.JPG" alt="">
+			<img src="sImagenes/3.JPG" alt="">
+			<img src="sImagenes/4.JPG" alt="">
+			<img src="sImagenes/5.JPG" alt="">
+			<img src="sImagenes/6.JPG" alt="">
+			<img src="sImagenes/7.JPG" alt="">
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+	<script src="js/jquery.slides.js"></script>
+
+	<script>
+$(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "fade",
+        // [string] Can be either "slide" or "fade".
+      interval: 2000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+	</script>
+
+
+	<br>
+	<br>
+	<footer>
+		<p>Derechos Reservaos de Brothers DODGE Company &copy;, by &Aacute;ngel G&oacute;mez</p>
+	</footer>
+</body>
+</html>
